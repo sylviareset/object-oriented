@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/3/24 12:44:36。
+     1>项目“d:\用户目录\documents\visual studio 2010\Projects\Calculator\Calculator\Calculator.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Calculator.lastbuildstate”。
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(983,5): warning MSB3644: 未找到框架“.NETFramework,Version=v4.0”的引用程序集。若要解决此问题，请安装此框架版本的 SDK 或 Targeting Pack，或将应用程序的目标重新指向已装有 SDK 或 Targeting Pack 的框架版本。请注意，将从全局程序集缓存(GAC)解析程序集，并将使用这些程序集替换引用程序集。因此，程序集的目标可能未正确指向您所预期的框架。
+       InitializeBuildStatus:
+         正在对“Debug\Calculator.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Calculator.cpp main.cpp
+         main.cpp
+         Calculator.cpp
+         正在生成代码...
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\用户目录\documents\visual studio 2010\Projects\Calculator\Debug\Calculator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Calculator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\用户目录\documents\visual studio 2010\Projects\Calculator\Debug\Calculator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\用户目录\documents\visual studio 2010\Projects\Calculator\Debug\Calculator.lib" /MACHINE:X86 Debug\Calculator.obj
+         Debug\main.obj
+         Calculator.vcxproj -> d:\用户目录\documents\visual studio 2010\Projects\Calculator\Debug\Calculator.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"d:\用户目录\documents\visual studio 2010\Projects\Calculator\Debug\Calculator.exe.manifest" /manifest Debug\Calculator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Calculator.unsuccessfulbuild”。
+         正在对“Debug\Calculator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\用户目录\documents\visual studio 2010\Projects\Calculator\Calculator\Calculator.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.43
